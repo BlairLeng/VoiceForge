@@ -18,7 +18,7 @@ def visualization_np(inputs: np.ndarray):
     # print(reduced_data.shape)
 
     # 方便可视化不同的颜色
-    labels = np.random.randint(0, 109, 256)
+    labels = np.random.randint(0, 1, raws)
 
     # 可视化
     plt.figure(figsize=(10, 8))
